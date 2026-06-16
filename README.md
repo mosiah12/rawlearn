@@ -27,3 +27,20 @@ predict = model.predict(5)
 print(f"{predict:.2f}")
 
 - This code makes the model learn the linear pattern between the inputs and outputs. (y = 2x)
+
+Project structure:
+
+raw_learn/
+│
+├── libs/
+│   └── tensorlib.py          # Core Autograd Engine (Tensor class & Math Ops)
+│
+├── models/
+│   ├── __init__.py           # Exposes LinearRegression
+│   └── linear_regression.py  # Linear Regression model implementation
+│
+├── optimizers/
+│   ├── __init__.py           # Exposes SGD
+│   └── sgd.py                # Optimization algorithms (SGD)
+│
+└── main.py                   # Execution and testing script
