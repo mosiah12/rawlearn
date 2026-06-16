@@ -16,6 +16,7 @@ Usage example:
 from raw_learn.models import LinearRegression
 
 -> initialize model with 0.1 step size
+
 model = LinearRegression(lr=0.1)
 
 -> training data
