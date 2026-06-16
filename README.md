@@ -25,3 +25,5 @@ model.fit(x=inputs, y=outputs, epochs=500)
 predict = model.predict(5)
 
 print(f"{predict:.2f}")
+
+- This code makes the model learn the linear pattern between the inputs and outputs. (y = 2x)
