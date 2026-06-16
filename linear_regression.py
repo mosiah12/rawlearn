@@ -1,6 +1,6 @@
 # Linear regression model
 
-from raw_learn.libs.tensorlib import Tensor
+from raw_learn.tensorlib import Tensor
 from raw_learn.optimizers import SGD
 
 import sys
