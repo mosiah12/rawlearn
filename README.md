@@ -11,7 +11,7 @@ The project contains:
 
 Usage example:
 
--> Python
+# Python
 
 from raw_learn.models import LinearRegression
 
